@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
-        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0-beta2"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0-beta3"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -41,18 +41,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATVungleAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATVungleAdapter.zip",
-            checksum: "a85bc1804d41a1a9880a1374bc38ec2500ce8ed6a464fcf6ca9c8e8a4d318813"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATVungleAdapter.zip",
+            checksum: "b0c19b7197b48f853c883ac6df0f2133da4c14da195e1452a54ad8df15ce2306"
         ),
         .binaryTarget(
             name: "AATVungleBiddingAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATVungleBiddingAdapter.zip",
-            checksum: "216b542b8fff4cfdddfda2e77c9b254119294efe3b8676d00eefed1be9640877"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATVungleBiddingAdapter.zip",
+            checksum: "2a5c88cb7c2f9cf12f1fefb93f92ed54a9c65524de244128e31e535a658aac7f"
         ),
         .binaryTarget(
             name: "AATVungleAdsSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/VungleAdsSDK.zip",
-            checksum: "0e4a99e348dcc57e4fb507c22b0a0f4e56c41abef5ba29d29e5e57f3d27e7ccd"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/VungleAdsSDK.zip",
+            checksum: "b95820480bbcd6613af3729bb7679b01acae25c6b9e382635759ad6348b57c00"
         ),
     ]
 )
