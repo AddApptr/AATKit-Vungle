@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
-        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
+        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -41,18 +41,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATVungleAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATVungleAdapter.zip",
-            checksum: "b4d962b819783b60a0bbed53cd2c2c590c48bcc0dcd718f91e23e4a536e86c63"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATVungleAdapter.zip",
+            checksum: "9d541f85ca841d6ed5ec3f35b057a15576ea6d1ab947ad83b950a382f98381ee"
         ),
         .binaryTarget(
             name: "AATVungleBiddingAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATVungleBiddingAdapter.zip",
-            checksum: "061ad2e562de3c58f101eb1286b418ee4fea9c91ded3e1a0d554c7e8cbca013e"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATVungleBiddingAdapter.zip",
+            checksum: "637c13581f53d24ee08c733850406162c11b76374114e59bab41688ba28b2ff2"
         ),
         .binaryTarget(
             name: "AATVungleAdsSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/VungleAdsSDK.zip",
-            checksum: "da22c65904b164fe9f072650731fc57feb8b781a17318281d9a3411855222eb1"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/VungleAdsSDK.zip",
+            checksum: "c93f2c6add4987e8010db1a31a1bf826d3158d2679c0cf8e7a19d35b7f3da985"
         ),
     ]
 )
